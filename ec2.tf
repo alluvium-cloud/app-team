@@ -19,6 +19,6 @@
 #   instance_type = "t3.micro"
 
 #   tags = {
-#     Name = "App-Team-1-Web"
+#     Name = "App-Team-eb"
 #   }
 # }

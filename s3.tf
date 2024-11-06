@@ -5,9 +5,9 @@ resource "random_string" "id" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "app-team-1-${random_string.id.result}"
+  bucket = "app-team-${random_string.id.result}"
 
   tags = {
-    Name = "app-team-1-${random_string.id.result}"
+    Name = "app-team-${random_string.id.result}"
   }
 }
